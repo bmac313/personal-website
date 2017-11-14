@@ -1,0 +1,67 @@
+/* Universal Styles */
+@import url('https://fonts.googleapis.com/css?family=Lato');
+body {
+  background-color: #ACCDC8;
+  font-family: 'Lato', sans-serif; 
+  font-size: 16px;
+  margin: auto;
+  padding: 15px;
+  max-width: 900px;
+}
+
+/* Structural Elements */
+.navbar ul{
+  list-style-type: none;
+  margin-top: 0em;
+  margin-bottom: 0em;
+  padding: 0px;
+  text-align: center;
+}
+
+.navbar ul li{
+  display: inline;
+  font-size: 1.1em;
+}
+
+.navbar ul li a{
+  padding-right: 1.5em;
+  padding-left: 1.5em;
+  text-decoration: none;
+  transition: 0.4s;
+  -webkit-transition: 0.4s;
+  -moz-transition: 0.4s;
+}
+
+.navbar ul li a:hover{
+  background-color: #FAD2D6;
+}
+
+.headline {
+  background-color: #DCB97A;
+}
+
+.main-header nav {
+  background-color: #D5767F;
+}
+
+.main-header h1 {
+  font-family: 'Lato Thin', sans-serif;
+  margin-top: 0em;
+  margin-bottom: 0em;
+  text-align: center;
+}
+
+.main-header h1 a{
+  font-size: 2em;
+  text-decoration: none;
+}
+
+@media only screen and (max-width: 450px) {
+  .navbar ul li {
+    display: block;
+	font-size: 1.3em;
+  }
+  .navbar ul li a {
+    display: block;;
+  }
+}
