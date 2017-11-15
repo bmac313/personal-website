@@ -5,7 +5,7 @@ body {
   font-family: 'Lato', sans-serif; 
   font-size: 16px;
   margin: auto;
-  padding: 15px;
+  padding-top: 1.1em;
   max-width: 900px;
 }
 
@@ -54,6 +54,12 @@ body {
 .main-header h1 a{
   font-size: 2em;
   text-decoration: none;
+}
+
+@media only screen and (max-width: 910px) {
+  body {
+    padding: 0;
+  }
 }
 
 @media only screen and (max-width: 450px) {
